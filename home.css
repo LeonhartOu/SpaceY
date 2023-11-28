@@ -1,0 +1,247 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(55, 66, 91);
+    color: white;
+    background-image: url(foto/22.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    margin: auto;
+    margin-bottom: auto;
+    padding-top: 100px;
+}
+
+.container p{
+    margin: 2rem;
+    color: whitesmoke;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 10px 0;
+    color: #fff;
+}
+
+header{
+    top: 0;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.top-nav{
+    margin: 1rem;
+    overflow: hidden;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.top-nav a{
+    color: white;
+    text-align: center;
+    padding: 1rem auto;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.top-nav a:hover{
+    color: gray;
+    transition: color .4s ease;
+}
+
+/* --------------------- */
+
+.wrapper{
+    width: 500px;
+    margin: 1rem;
+    float: left;
+    padding: 2rem; 
+}
+  
+.wrapper a{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+  
+.wrapper img{
+    max-width: 100%;
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+  
+.wrapper a:before {
+    transition: all .6s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+  
+.wrapper a:hover:before {
+    opacity: 50%;
+    transform: scale(1);
+}
+  
+.wrapper a:after {
+    transition: all .7s ease .2s;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 1px;
+    bottom: 12px;
+    background: rgb(130, 130, 130, 0.5);
+    transform: scale(0);
+}
+  
+.wrapper a:hover:after {
+    opacity: 50%;
+    transform: scale(1);
+    border-radius: 5px;
+}
+  
+.wrapper p{
+    color: white;
+}
+
+
+.wrapper01{
+    width: 500px;
+    margin: 1rem;
+    float: right;
+    padding: 2rem; 
+}
+  
+.wrapper01 a{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+  
+.wrapper01 img{
+    max-width: 100%;
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+  
+.wrapper01 a:before {
+    transition: all .6s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+  
+.wrapper01 a:hover:before {
+    opacity: 50%;
+    transform: scale(1);
+}
+  
+.wrapper01 a:after {
+    transition: all .7s ease .2s;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 1px;
+    bottom: 12px;
+    background: rgb(130, 130, 130, 0.5);
+    transform: scale(0);
+}
+  
+.wrapper01 a:hover:after {
+    opacity: 50%;
+    transform: scale(1);
+    border-radius: 5px;
+}
+  
+.wrapper p{
+    color: white;
+}
+
+/* --------------------- */
+
+footer{
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    width: auto;
+    color: #fff;
+  }
+  
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+  
+.footer-content h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 15px auto;
+}
+  
+.footer-content p{
+    max-width: 600px;
+    margin: 1px auto;
+    line-height: 20px;
+    font-size: 15px;
+}
+  
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 5px;
+    text-decoration:none;
+    color:#fff;
+}
+  
+.social li{
+     margin: 0 10px;
+}
+  
+.social a{
+    text-decoration: none;
+    color: white;     
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+  
+.social a:hover{
+     color: gray;
+}
+  
+.footer-bottom{
+     background-color: black;
+     width: 100vw;
+     padding: 10px 0;
+     text-align: center;
+}
+  
+.footer-bottom p{
+     font-size: 20px;
+     word-spacing: 2px;
+     text-transform: capitalize;
+}
+  

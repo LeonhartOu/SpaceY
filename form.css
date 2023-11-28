@@ -1,0 +1,94 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    align-items: center;
+    background-image: url('foto/moon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    image-resolution: ;
+    color: white;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.inputText{
+    padding: 1rem;
+    margin: 0.5rem 0 0 0;
+    width: 20vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.inputText[type=text]:focus{
+    border-color: cornflowerblue;
+    outline-color: cornflowerblue;
+}
+
+.btn-submit{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.5rem 0 0 0;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+
+.btn-submit:hover{
+    background-color: rgb(150, 150, 150);
+    
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: solid;
+    border-color: rgb(144, 143, 143);
+    border-radius: 5%;
+
+    padding: 1rem;
+    margin-left: 1rem;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button a{
+    text-decoration: none;
+}
+
+
+header{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: solid transparent;
+}
+
+ul li{
+    color: rgba(106, 223, 255, 0);
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+li a:hover{
+    color: gray;
+    transition: color .4s ease;
+}
